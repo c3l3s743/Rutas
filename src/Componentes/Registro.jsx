@@ -11,10 +11,27 @@ export default class Alumnos extends Component{
   render(){
     return(
       <div className="Inputs">
+        <div>
+        <p>Nombre: </p>
+        <input type="text"/>
+        </div>
+
+        <div>
+        <p>Apellido: </p>
         <input type="text" />
-        <input type="text" />
-        <input type="text" />
+        </div>
+
+        <div>
+        <p>Grado: </p>
+        <input type="number" />
+        </div>
+
+        <div>
+        <p>División: </p>
+        <input type="number" />
+        </div>
       </div>
+      
     )
   }
 }
