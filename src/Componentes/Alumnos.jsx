@@ -7,6 +7,12 @@ export default class Alumnos extends Component{
     this.state = {
     }
   }
+  componentDidMount(){
+    console.log({
+      id: this.props.id ,
+      curso: this.props.curso
+    });
+  }
 
   render(){
     return(
