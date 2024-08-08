@@ -1,5 +1,6 @@
 import { Component } from "react";
-// inputs
+import Boton from "./Boton";
+
 export default class Alumnos extends Component{
   constructor (props){
     super(props);
@@ -30,6 +31,11 @@ export default class Alumnos extends Component{
         <p>División: </p>
         <input type="number" />
         </div>
+        
+        <Boton
+        ruta="/login"
+            >Ir a login
+        </Boton>
       </div>
       
     )

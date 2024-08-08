@@ -14,6 +14,16 @@ export default class Login extends Component{
             ruta="/alumnos"
             >Ir a alumnos
             </Boton>
+
+            <Boton
+            ruta="/registro"
+            >Ir a registro
+            </Boton>
+
+            <Boton
+            ruta="/cursos"
+            >Ir a cursos
+            </Boton>
         </div>
       )
     }
