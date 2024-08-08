@@ -1,5 +1,5 @@
 import { Component } from "react";
-// inputs
+
 export default class Alumnos extends Component{
   constructor (props){
     super(props);
@@ -7,12 +7,12 @@ export default class Alumnos extends Component{
     }
   }
 
-
   render(){
     return(
-      <div className="Contenedor">
-        Registro
+      <div>
+        
       </div>
     )
   }
 }
+//tabla de cursos

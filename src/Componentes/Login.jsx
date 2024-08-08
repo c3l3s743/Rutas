@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Boton from "./comun/Boton";
+import Boton from "./Boton";
 
 export default class Login extends Component{
   constructor (props){
