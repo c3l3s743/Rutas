@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Boton from "./Boton";
+import Boton from "./comun/Boton";
 
 export default class Alumnos extends Component{
   constructor (props){
@@ -12,6 +12,7 @@ export default class Alumnos extends Component{
   render(){
     return(
       <div className="Inputs">
+        <h2>Registro</h2>
         <div>
         <p>Nombre: </p>
         <input type="text"/>
@@ -36,6 +37,10 @@ export default class Alumnos extends Component{
         ruta="/login"
             >Ir a login
         </Boton>
+          <Boton
+          ruta="/alumnos"
+          >Guardar
+          </Boton>
       </div>
       
     )

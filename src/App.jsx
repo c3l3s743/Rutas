@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Route, Redirect, Switch } from "wouter";
-import Login from './Componentes/Login';
-import Alumnos from './Componentes/Alumnos';
+import Login from './Componentes/login/Main';
+import Alumnos from './Componentes/alumnos/Main';
 import Cursos from "./Componentes/Cursos";
 import Registro from "./Componentes/Registro";
 import './App.css'

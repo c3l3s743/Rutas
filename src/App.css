@@ -16,14 +16,16 @@
   border-radius: 10px;
   padding: 10px 15px;
   margin: 10px;
+  color: aliceblue;
   background-color: rgb(31, 82, 175)
 }
 
 .Inputs input{
+  border: none;
   margin: 5px;
   border-radius:10px ;
-  height: 25px;
-  width: 300px;
+  height: 27px;
+  width: 310px;
 }
 .Inputs p{
   margin: 0;
@@ -32,10 +34,13 @@
 }
 
 .Cursos table{
-  background-color: rgb(248, 248, 248);
-  margin: 30px;
+  background-color: rgb(145, 173, 224);
+  margin: 20px;
   text-align: center;
 }
 .Cursos table td{
   padding: 5px;
+}
+h2{
+  margin: 10px;
 }
